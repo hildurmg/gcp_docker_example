@@ -1,0 +1,7 @@
+# config_cpu.yaml
+workerPoolSpecs:
+   machineSpec:
+      machineType: n1-highmem-2
+   replicaCount: 1
+   containerSpec:
+      imageUri: gcr.io/sunny-cider-374309/pytorch-latest-gpu-v20221215@sha256:e9c3080eb4712dd4b998005ea973ddce3cbecac7f93f4e250bdb62484ca39559
